@@ -56,6 +56,7 @@ brew "stackit"
 cask "cursor"
 cask "bettertouchtool"
 brew "bruno-cli"
+brew "shellcheck"
 
 # GitOps Helper & AI Support
 brew "k8sgpt"
