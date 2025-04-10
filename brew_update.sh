@@ -1,7 +1,7 @@
 /usr/bin/env bash
 brew bundle --file="./Brewfile"
 
-brew tap snyk/tab
+brew tap snyk/tap
 brew install snyk
 
 brew tap stackitcloud/tap
