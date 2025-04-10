@@ -1,4 +1,4 @@
 /usr/bin/env bash
 brew bundle --file="./Brewfile"
 
-crontab ./CronJob
+echo "use bettertouchtool as a replacement to run cronjobs on macOS"
