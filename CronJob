@@ -1,0 +1,2 @@
+export PATH="/opt/homebrew/bin:/usr/local/bin/:/usr/bin/:/bin:/usr/sbin:/sbin"
+0 8 * * 5 /bin/bash $HOME/devops/brew_update.sh >> $HOME/devops/brew_update.log 2>&1
