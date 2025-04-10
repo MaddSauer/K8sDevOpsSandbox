@@ -13,6 +13,8 @@ brew "kubectx"
 brew "testkube"
 cask "lens"
 brew "kubectx"
+cask "ghostty"
+
 
 # GitOps & CI/CD
 brew "argocd"
