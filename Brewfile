@@ -56,7 +56,7 @@ brew "tmux"
 brew "stackit"
 cask "cursor"
 cask "bettertouchtool"
-brew "bruno"
+brew "bruno-cli"
 
 # GitOps Helper & AI Support
 brew "k8sgpt"
