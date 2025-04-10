@@ -63,3 +63,7 @@ brew "k8sgpt"
 
 # Office & Meetings
 cask "zoom"
+cask "brave-browser"
+cask "obs"
+cask "vlc"
+cask "tigervnc-viewer"
