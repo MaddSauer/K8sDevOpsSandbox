@@ -16,8 +16,7 @@ brew "kubectx"
 
 # GitOps & CI/CD
 brew "argocd"
-tap "woodpecker-ci/tap"
-brew "woodpecker-ci/tap/woodpecker-cli"
+brew "woodpecker-cli"
 brew "dagger"
 
 # Infrastructure as Code
@@ -29,8 +28,7 @@ brew "ansible"
 brew "stern"
 brew "lazydocker"
 brew "prometheus"
-tap "open-telemetry/opentelemetry"
-brew "open-telemetry/opentelemetry/otel-cli"
+brew "otel-cli"
 
 # Security & DevSecOps
 brew "aquasecurity/trivy/trivy"
@@ -61,7 +59,6 @@ cash "bettertouchtool"
 brew "bruno"
 
 # GitOps Helper & AI Support
-tap "k8sgpt-ai/tap"
-brew "k8sgpt-ai/tap/k8sgpt"
+brew "k8sgpt"
 
 
