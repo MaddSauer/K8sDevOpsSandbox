@@ -61,4 +61,5 @@ brew "bruno"
 # GitOps Helper & AI Support
 brew "k8sgpt"
 
-
+# Office & Meetings
+cask "zoom"
