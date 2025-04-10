@@ -13,8 +13,6 @@ brew "kubectx"
 brew "testkube"
 cask "lens"
 brew "kubectx"
-cask "ghostty"
-
 
 # GitOps & CI/CD
 brew "argocd"
@@ -42,6 +40,8 @@ brew "kubesec"
 brew "sysdig"
 
 # DevOps Essentials
+brew "bash"
+cask "ghostty"
 brew "httpie"
 brew "jq"
 brew "yq"
@@ -51,14 +51,14 @@ brew "htop"
 brew "git"
 brew "gnutils"
 brew "gnupg"
-brew "wireshark" --with-qt
+brew "wireshark"
 brew "vim"
 brew "qemu"
 brew "tmux"
 brew "stackit"
 cask "cursor"
 cash "bettertouchtool"
-
+brew "bruno"
 
 # GitOps Helper & AI Support
 tap "k8sgpt-ai/tap"
