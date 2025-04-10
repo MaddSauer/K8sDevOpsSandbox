@@ -6,11 +6,13 @@ brew "k3d"
 brew "krew"
 brew "helm"
 brew "vcluster"
-brew "vnode"
-brew "devpod"
 brew "k0sproject/tap/k0sctl"
 brew "cilium-cli"
 brew "colima"
+brew "kubectx"
+brew "testkube"
+cask "lens"
+brew "kubectx"
 
 # GitOps & CI/CD
 brew "argocd"
@@ -35,6 +37,7 @@ brew "aquasecurity/trivy/trivy"
 brew "kubescape"
 brew "snyk"
 brew "kubesec"
+brew "sysdig"
 
 # DevOps Essentials
 brew "httpie"
@@ -51,51 +54,11 @@ brew "vim"
 brew "qemu"
 brew "tmux"
 brew "stackit"
+cask "cursor"
 
 
 # GitOps Helper & AI Support
-brew "kubectx"
 tap "k8sgpt-ai/tap"
 brew "k8sgpt-ai/tap/k8sgpt"
 
-# Optional GUI Tools
-cask "lens"#!/bin/bash
 
-
-brew "k0s"
-
-brew "httpie"
-
-brew "jq"
-
-brew "yq"
-
-brew "fzf"
-
-brew "tldr"
-
-brew "kubectx"
-
-tap "k8sgpt-ai/tap"
-
-brew "k8sgpt-ai/tap/k8sgpt"
-
-brew "testkube"
-
-cask "lens"
-
-cask "cursor"
-
-# Hinweise:
-
-# - kubespray, kratix, octopus, k0rdent sind evtl. manuell zu installieren
-
-EOF
-
-echo "🚀 Starte Installation der Tools ..."
-
-brew bundle --file="$BREWFILE"
-
-echo "✅ Alle verfügbaren Tools wurden installiert."
-
-echo "⚠️ Bitte beachte: Einige Tools wie 'kubespray', 'kratix', 'octopus', 'k0rdent' müssen manuell via GitHub installiert werden." 
