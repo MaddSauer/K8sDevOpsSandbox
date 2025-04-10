@@ -55,7 +55,7 @@ brew "qemu"
 brew "tmux"
 brew "stackit"
 cask "cursor"
-cash "bettertouchtool"
+cask "bettertouchtool"
 brew "bruno"
 
 # GitOps Helper & AI Support
