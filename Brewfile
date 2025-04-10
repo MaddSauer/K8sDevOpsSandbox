@@ -12,7 +12,6 @@ brew "colima"
 brew "kubectx"
 brew "testkube"
 cask "lens"
-brew "kubectx"
 
 # GitOps & CI/CD
 brew "argocd"
@@ -34,7 +33,7 @@ brew "otel-cli"
 brew "aquasecurity/trivy/trivy"
 brew "kubescape"
 brew "snyk"
-brew "kubesec"
+brew "shyiko/kubesec/kubesec"
 brew "sysdig"
 
 # DevOps Essentials
